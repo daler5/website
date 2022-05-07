@@ -1,1 +1,1 @@
-edit github profile - https://proglib.io/p/kak-kreativno-oformit-profil-na-github-chtoby-on-privlekal-vnimanie-2022-03-17
+site link - https://main.d3315ddyoyggo3.amplifyapp.com 
