@@ -1,0 +1,337 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto);
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.9.0/css/all.min.css');
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+body {
+    background-color: #000000;
+    background: linear-gradient(to right,  #060d2e, #000000, #1d0225);
+    
+}
+/* @import url(https://fonts.googleapis.com/css?family=Roboto);
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.9.0/css/all.min.css');
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+*/
+
+.block4{
+    background-color: #000000;
+    background: linear-gradient(to right,  #102175, #000000, #510768);
+    border-radius: 5%;
+    margin-left: auto;
+    margin-right: auto;
+    backdrop-filter: blur(50px);
+    border: 2px solid black;
+    width: 89%;
+    
+}
+.block4:hover {
+    background-color: black;
+    cursor: pointer;
+    transition: 6s all;
+}
+.skill{
+    color: white;
+    font-family: 'Oleo Script', cursive;
+    font-size: 260%;
+    margin-left: auto;
+    margin-right: auto;
+    
+
+}
+.diograma {
+    width:70%;
+    margin-left: auto;
+    margin-right: auto;
+    padding:px;
+}
+body {
+    font-family: Arial, helvetica, Sans-serif;
+}
+div.candidatos, div.text {
+    position:relative;
+    height: 40px;
+    margin:40px 20px;
+    padding-left:50px;
+}
+div.text p{
+    font-size: 10px;
+    font-weight: 600;
+    color: #9e9c9b;
+    text-transform: uppercase;
+}
+div.text p a{
+    color: #5e5c5b;
+}
+div.candidatos img {
+    position:absolute;
+    top:0;
+    left:0;
+    width:40px;
+    height:40px;
+    border-radius: 50%;
+    border: 2px solid #ddd;
+    padding:1px;
+}
+div.candidatos .parcial {
+    display:inline-block;
+    width:100%;
+    height:40px;
+    vertical-align:middle;
+    padding: 0 0 0 10px;
+}
+div.candidatos .parcial .info {
+    height:15px;
+    position: relative;
+}
+div.candidatos .parcial .info > div {
+    float:left;
+}
+div.candidatos .parcial .info .nome {
+    position: absolute;
+    top: 0;
+    left:0;
+    font-size: 15px;
+    font-weight: 600;
+    color: rgb(255, 255, 255);
+}
+div.candidatos .parcial .info .eleito, div.candidatos .parcial .info .segundo-turno {
+    color: #fff;
+    padding: 0 5px 2px 5px;
+    border-radius: 2px;
+}
+div.candidatos .parcial .info .percentagem-num {
+    position: absolute;
+    top:0;
+    right:0;
+    font-size: 18px;
+    font-weight: 700;
+    color: white;
+}
+div.candidatos .parcial .progressBar {
+    position:relative;
+    width:100%;
+    height:7px;
+    margin:5px 0 2px;
+    border-radius:10px;
+    background: #e7e7e7;
+}
+div.candidatos .parcial .progressBar .percentagem {
+    position:absolute;
+    top:0;
+    left:0;
+    height:7px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    background: #A4B5C0;
+    -webkit-transition: 5s all;
+    -webkit-animation-duration: 5s;
+    -webkit-animation-name: animationProgress;
+}
+div.candidatos.color1 .parcial .percentagem {
+    background-color:#EACF00;
+}
+div.candidatos.color2 .parcial .percentagem {
+    background-color:#C44738;
+}
+div.candidatos.color3 .parcial .percentagem {
+    background-color:#1768b9;
+}
+div.candidatos.color4 .parcial .percentagem {
+    background-color:#0099ff;
+}
+div.candidatos .parcial .partidas {
+    font-family: Arial, helvetica, Sans-serif;
+    font-size: 10px;
+    font-weight: 600;
+    color: #9e9c9b;
+    text-transform: uppercase;
+}
+.percentual {
+    -webkit-transition: 5s all;
+    -webkit-animation-duration: 5s;
+    -webkit-animation-name: animationProgress;
+    transition: 5s all;
+    animation-duration: 5s;
+    animation-name: animationProgress;
+}
+@-webkit-keyframes animationProgress {
+    from {
+        width:0;
+    }
+}
+@keyframes animationProgress {
+    from {
+        width:0;
+    }
+}
+.hello {
+    color: white;
+    font-size: 350%;
+    margin: 40px;
+    font-family: 'Oleo Script', cursive;
+    margin-top: 50px;
+}
+.img1{
+    width: 70px;
+    margin-left: 60px;
+    float: left;
+
+}
+.p {
+    color:white;
+    border-radius: 4%;
+    text-align: center;
+    font-family: 'Oleo Script', cursive;
+    font-size: 45px;
+}
+.fol {
+    color: white;
+    font-family: 'Oleo Script', cursive;
+    font-size: 30px;
+}
+.button {
+    text-align: center;
+    color: black;
+}
+.img3{
+    width:40px;
+    float: left;
+    clear: right ;
+}
+.img2{
+    width:40px;
+    float: left
+}
+.hell{
+    text-indent: 10px;
+}
+.cen {
+    text-indent: 5px;
+    
+    margin-left: 43%;
+}
+#scroll-top {
+    position: fixed;
+    bottom: 48px;
+    right: 48px;
+  }
+  
+  #scroll-top button {
+    position: relative;
+    overflow: hidden;
+    height: 48px;
+    width: 48px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    color: rgba(0, 0, 0, 0.3);
+    font-size: 16px;
+    background: #21c984;
+    transition: width 0.5s;
+    border-radius: 100px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+  }
+  
+  #scroll-top button span {
+    display: inline-block;
+    transition: opacity 0.3s ease 0s, transform 0.5s ease 0s;
+    line-height: 48px;
+    font-size: 20px;
+    width: 100%;
+  }
+  
+  #scroll-top button span::before {
+    width: 100%;
+    position: absolute;
+    left: 0px;
+    top: 200%;
+    opacity: 0;
+    content: attr(data-hover);
+    -webkit-transform: translate3d(0, 0, 0);
+    -moz-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+    color: #fff;
+    font-size: 16px;
+    text-transform: uppercase;
+  }
+  
+  #scroll-top:hover button {
+    width: 120px;
+    background: #9b59b6;
+  }
+  
+  #scroll-top:hover button span {
+    -webkit-transform: translateY(-200%);
+    -moz-transform: translateY(-200%);
+    transform: translateY(-200%);
+  }
+  
+  #scroll-top:hover button span:before {
+    opacity: 1;
+  }
+  
+  #scroll-top button:active {
+    background: #21c984;
+  }
+
+  .button {
+    /* Сбрасываем дефолтные стили */
+    border: none;
+    outline: none;
+    display: inline-block;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    font-size: 16px;
+    /* Можно также использовать любые встроенные и кастомные шрифты, например, отсюда  */
+    font-family: Roboto, Verdana, Tahoma, sans;
+    /* Тут можно поэкспериментировать */
+    padding: 12px 16px;
+    border-radius: 100px;
+    color: #fff;
+  }
+  .button i {
+    margin-right: 4px;
+  }
+  .button + .button {
+    margin-left: 6px;
+  }
+  .button.blue {
+    background: #2196F3;
+  }
+  .button.purple {
+    background: #333532;
+  }
+  .button:hover {
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
+  }
+  .button:hover.blue {
+    background: #39a1f4;
+  }
+  .button:hover.purple {
+    background: #4e524e;
+  }
+  .button:active {
+    box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.2);
+    text-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
+  }
+  .button:active.blue {
+    background: #0d8aee;
+  }
+  .button:active.purple {
+    background: #8f4bab;
+  }
+
+  .button {
+      text-align: center;
+  }
+.edit {
+    text-align: center;
+}
+
+
+
+
+
